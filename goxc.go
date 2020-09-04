@@ -29,11 +29,11 @@ import (
 
 	// Tip for Forkers: please 'clone' from my url and then 'pull' from your url. That way you wont need to change the import path.
 	// see https://groups.google.com/forum/?fromgroups=#!starred/golang-nuts/CY7o2aVNGZY
-	"github.com/laher/goxc/config"
-	"github.com/laher/goxc/core"
-	"github.com/laher/goxc/platforms"
-	"github.com/laher/goxc/tasks"
-	_ "github.com/laher/goxc/tasks/github"
+	"github.com/m-honda/goxc/config"
+	"github.com/m-honda/goxc/core"
+	"github.com/m-honda/goxc/platforms"
+	"github.com/m-honda/goxc/tasks"
+	_ "github.com/m-honda/goxc/tasks/github"
 )
 
 const (

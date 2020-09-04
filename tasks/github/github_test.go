@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/laher/goxc/tasks"
-	"github.com/laher/goxc/tasks/httpc"
+	"github.com/m-honda/goxc/tasks"
+	"github.com/m-honda/goxc/tasks/httpc"
 )
 
 var apikey = flag.String("api-key", "", "API key")

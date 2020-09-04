@@ -24,8 +24,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/laher/goxc/core"
-	"github.com/laher/goxc/typeutils"
+	"github.com/m-honda/goxc/core"
+	"github.com/m-honda/goxc/typeutils"
 )
 
 const (

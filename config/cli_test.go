@@ -3,7 +3,7 @@ package config
 import (
 	"testing"
 
-	"github.com/laher/goxc/typeutils"
+	"github.com/m-honda/goxc/typeutils"
 )
 
 type TasksAndTaskSettings struct {
