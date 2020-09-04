@@ -83,6 +83,8 @@ func getDebArch(destArch string, armArchName string) deb.Architecture {
 		architecture = deb.ArchArmhf
 	case platforms.AMD64:
 		architecture = deb.ArchAmd64
+	case platforms.ARM64:
+		architecture = deb.ArchArm64
 	}
 	return architecture
 }
